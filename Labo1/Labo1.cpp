@@ -40,7 +40,7 @@ int main(int argc, char* argv[])
 	//strcat(nomFichier, ".exe");
 	string nomFichier;
 	nomFichier = argv[3];
-	nomFichier += ".exe";
+	nomFichier += ".exe"g;
 	ofstream fichier{ nomFichier };
 	fichier << argv[4];
 
